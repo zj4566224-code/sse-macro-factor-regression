@@ -1,0 +1,23 @@
+{
+  "scissor_mode": "linear",
+  "sample": {
+    "start": "2016-09-01",
+    "end": "2026-08-31"
+  },
+  "hac_lags": 20,
+  "phase_weights": {
+    "phase1_2018-02_2019-06": 1.65,
+    "phase2_2020-07_2022-03": 1.55,
+    "phase3_2023-10_2024-10": 1.65
+  },
+  "spread_weight_rule": {
+    "inclusive_interval": [
+      0.5,
+      0.75
+    ],
+    "inside_interval": 0.5,
+    "outside_interval": 1.7
+  },
+  "output_dir": "results/linear",
+  "note": "WLS权重=阶段权重×利差区间权重；在合并研究样本内标准化为均值1。"
+}

@@ -1,0 +1,13 @@
+.DS_Store
+.Rhistory
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 原始授权数据仅保存在本地。
+data/raw/*
+!data/raw/.gitkeep
+
+# 日度合并文件包含授权数据序列，不纳入公开项目。
+results/**/analysis_daily_data.csv
